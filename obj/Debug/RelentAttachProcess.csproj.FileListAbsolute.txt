@@ -1,0 +1,11 @@
+R:\Users\User\source\repos\RelentAttachProcess\bin\Debug\RelentAttachProcess.exe.config
+R:\Users\User\source\repos\RelentAttachProcess\bin\Debug\RelentAttachProcess.exe
+R:\Users\User\source\repos\RelentAttachProcess\bin\Debug\RelentAttachProcess.pdb
+R:\Users\User\source\repos\RelentAttachProcess\obj\Debug\RelentAttachProcess.csprojAssemblyReference.cache
+R:\Users\User\source\repos\RelentAttachProcess\obj\Debug\RelentAttachProcess.Properties.Resources.resources
+R:\Users\User\source\repos\RelentAttachProcess\obj\Debug\RelentAttachProcess.csproj.GenerateResource.cache
+R:\Users\User\source\repos\RelentAttachProcess\obj\Debug\RelentAttachProcess.exe
+R:\Users\User\source\repos\RelentAttachProcess\obj\Debug\RelentAttachProcess.pdb
+R:\Users\User\source\repos\RelentAttachProcess\bin\Debug\files\lba1QuestOffsets.xml
+R:\Users\User\source\repos\RelentAttachProcess\obj\Debug\RelentAttachProcess.frmQuestLogger.resources
+R:\Users\User\source\repos\RelentAttachProcess\obj\Debug\RelentAttachProcess.frmOffsetToFixed.resources

@@ -30,8 +30,9 @@ namespace RelentAttachProcess
 
         private void loadQuests(XmlNodeList nodes)
         {
-            Quest = new Item[nodes.Count];
-            for (int i = 0; i < Quest.Count(); i++)
+            Quest = new Item[nodes.Count+40];
+            int i = 0;
+            for (; i < nodes.Count; i++)
             {
                 Item x = new Item();
                 
@@ -43,6 +44,20 @@ namespace RelentAttachProcess
                 x.size = ushort.Parse(nodes[i].SelectSingleNode("size").InnerText.Trim());
                 x.type = ushort.Parse(nodes[i].SelectSingleNode("type").InnerText.Trim());
                 x.lbaVersion = ushort.Parse(nodes[i].SelectSingleNode("lbaVersion").InnerText.Trim());
+                Quest[i] = x;
+            }
+
+            for(; i< Quest.Count(); i++)
+            {
+                Item x = new Item();
+
+                x.memoryOffset = Quest[i-1].memoryOffset+1;
+                x.maxVal = 1;
+                x.minVal = 0;
+                x.size = 1;
+                x.type = 1;
+                x.lbaVersion = 1;
+
                 Quest[i] = x;
             }
         }
